@@ -1,0 +1,47 @@
+div {
+  font-weight: lighter;
+}
+
+p {
+  text-align: center;
+}
+
+p {
+  font-style: oblique;
+}
+
+.paleturquoise {
+  background-color: paleturquoise;
+}
+
+.thistle {
+  background-color: thistle;
+}
+
+.darkslategray {
+  background-color: darkslategray;
+}
+
+#firstheader {
+  color: indigo;
+}
+
+#redlist {
+  color: firebrick;
+}
+
+#silverlist {
+  color: silver;
+}
+
+a[href*="usatf"] {
+  color: deepskyblue;
+}
+
+a[href*="athletic"] {
+  color: yellowgreen;
+}
+
+a[href*="olympics"] {
+  color: orangered;
+}
