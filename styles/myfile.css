@@ -18,20 +18,20 @@ p {
   background-color: thistle;
 }
 
-.darkslategray {
-  background-color: darkslategray;
+.blueblue {
+  background-color: darkturquoise;
 }
 
 #firstheader {
   color: indigo;
 }
 
-#redlist {
-  color: firebrick;
+#limelist {
+  color: #ccff15;
 }
 
-#silverlist {
-  color: silver;
+#teallist {
+  color: #39CCCC;
 }
 
 a[href*="usatf"] {
@@ -44,4 +44,32 @@ a[href*="athletic"] {
 
 a[href*="olympics"] {
   color: orangered;
+}
+
+* {
+  word-spacing: 2px;
+}
+
+ol > li {
+  background-color: cadetblue;
+}
+
+div span {
+  text-decoration: underline;
+}
+
+p ~ span {
+  text-decoration: line-through;
+}
+
+div:hover {
+  color: #7FDBFF;
+}
+
+nav>a:hover {
+  background-color: darkmagenta;
+}
+
+h4:hover {
+  background-color: #FF851B;
 }
