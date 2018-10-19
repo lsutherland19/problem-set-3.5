@@ -59,7 +59,7 @@ div span {
 }
 
 p ~ span {
-  text-decoration: line-through;
+  text-decoration: underline;
 }
 
 div:hover {
@@ -72,4 +72,35 @@ nav>a:hover {
 
 h4:hover {
   background-color: #FF851B;
+}
+
+footer>a:hover {
+  color: #ADFF2F;
+}
+
+h3>a:hover {
+  color: 	#FF69B4;
+}
+
+p>a:hover {
+  color: 	#FF4500;
+}
+
+.paddedimage {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.paddedparagraph {
+  padding-bottom: 20px;
+}
+
+img {
+  border-style: double;
+  border-color: plum;
+  border-width: 10px;
+  border-radius: 5px;
+  width:200px;
+  height:200px;
 }
